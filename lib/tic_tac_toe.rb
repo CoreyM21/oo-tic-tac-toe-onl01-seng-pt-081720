@@ -106,6 +106,9 @@ class TicTacToe
   def play 
    turn until over?
   end
+  
+  if won?
+    puts "Congradualtions"
  
   
 end
