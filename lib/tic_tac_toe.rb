@@ -95,7 +95,7 @@ class TicTacToe
     won? || full?
   end
   
-  def winner
+def winner
   index = []
   index = won?
   if index == false
@@ -107,18 +107,18 @@ class TicTacToe
       return "O"
     end
   end
- end
+end
 
- def play
+def play
   until over? == true
     turn
   end
 
   if won?
     puts "Congratulations #{winner}!"
-   elsif draw?
-      puts "Cat's Game!"
-    end
+  elsif draw?
+    puts "Cat's Game!"
   end
+end
 
 end
