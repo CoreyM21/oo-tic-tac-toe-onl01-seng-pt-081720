@@ -104,9 +104,8 @@ class TicTacToe
   end
   
   def play 
-    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    turn until over? 
-    
+    until over? == true 
+     turn
   end 
   
 end
